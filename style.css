@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.cardDiv {
+  display: flex;
+  position: absolute;
+  top: 120px;
+  left: 200px;
+}
+
+.cardDiv2 {
+  display: flex;
+  position: absolute;
+  top: 585px;
+  left: 200px;
+}
+
+.card2 {
+  display: flex;
+  margin-bottom: 130px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftNav {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+  margin-left: 190px;
+  padding: 10px;
+}
+
+.leftNav h1 {
+  font-size: 36px;
+}
+
+.navList {
+  display: flex;
+  gap: 1em;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  margin-right: 180px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navButton {
+  background-color: #00a0a0;
+  color: white;
+  width: 90px;
+}
+
+.card {
+  width: 40vw;
+  height: 425px;
+  border: 2px solid grey;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+
+.colorBar {
+  background-color: #00a0a0;
+  height: 130px;
+  width: 50vw;
+}
+
+.colorBar2 {
+  background-color: black;
+  height: 65px;
+  width: 50vw;
+}
+
+.colorBar3 {
+  background-color: black;
+  height: 65px;
+}
+
+.boxHead {
+  color: white;
+  padding: 15px;
+}
+
+.boxHead2 {
+  color: white;
+  padding: 15px;
+  display: inline-block;
+}
+
+.imgBackground {
+  height: 130px;
+  width: 130px;
+  border: 4px solid grey;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 57px;
+  left: 35px;
+}
+
+.userImg {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+}
+
+.myInfo {
+  position: absolute;
+  bottom: 10px;
+  left: 45px;
+  justify-content: space-around;
+}
+
+.myInfo2 {
+  position: absolute;
+  top: 80px;
+  left: 45px;
+}
+
+.myInfo3 {
+  position: absolute;
+  top: 115px;
+  left: 45px;
+  color: grey;
+}
+
+.myInfo4 {
+  position: absolute;
+  top: 145px;
+  left: 45px;
+}
+
+.iconBox {
+  display: flex;
+}
+
+.icon {
+  height: 30px;
+  width: auto;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.iconText {
+  margin-left: 1em;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+}
+
+.sideCardSize {
+  width: 25vw;
+  height: 225px;
+  border: 2px solid grey;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sideCard1 {
+  position: absolute;
+  top: 120px;
+  right: 160px;
+}
+
+.icon2 {
+  position: relative;
+  height: 40px;
+  width: auto;
+  left: 95px;
+  margin: 5px;
+}
+
+.sideButtons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.sideProfile {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.accept {
+  position: relative;
+  left: 10px;
+}
+
+.sideCard2 {
+  position: absolute;
+  top: 370px;
+  right: 160px;
+}
+
+.sideCardSize2 {
+  width: 25vw;
+  height: 425px;
+  border: 2px solid grey;
+  position: relative;
+  margin: 0 auto;
+}
+
+.viewMore {
+  border-top: 2px solid grey;
+  height: 20px;
+}
+
+.moreLink {
+  display: flex;
+  position: relative;
+  align-items: center;
+  left: 20px;
+  top: 10px;
+  font-size: 24px;
+}
+
+.counter {
+  background-color: grey;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 20px;
+}
