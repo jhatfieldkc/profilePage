@@ -9,130 +9,161 @@
   </head>
   <body>
     <nav>
-      <div class="leftNav">
-        <h1>Profile</h1>
-        <ul class="navList">
-          <li>Home</li>
-          <li>My Profile</li>
-          <li>Find Connections</li>
-        </ul>
+      <div class="navContainer">
+        <div class="leftNav">
+          <h1>Profile</h1>
+          <ul class="navList">
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+          </ul>
+        </div>
+        <div class="rightNav"><button class="navButton">Sign Out</button></div>
       </div>
-      <div class="rightNav"><button class="navButton">Sign Out</button></div>
     </nav>
-    <div class="cardDiv">
-      <div class="card">
-        <div class="colorBar"></div>
-        <div class="imgBackground">
-          <img
-            class="userImg"
-            src="img/profilePics/jane-m.jpg"
-            alt="My Profile Picture"
-          />
-        </div>
-        <div class="myInfo">
-          <h1 class="info">Jane Doe</h1>
-          <div class="iconBox">
-            <img
-              class="icon"
-              src="img/icons/map-marker.png"
-              alt="Map marker icon"
-            />
-            <h2 class="info iconText">Seattle</h2>
+    <div class="wrapper">
+      <div class="leftCol">
+        <div class="card">
+          <div class="colorBar"></div>
+          <div class="profileInfo">
+            <div class="imgBackground">
+              <img
+                class="userImg"
+                src="img/profilePics/jane-m.jpg"
+                alt="My Profile Picture"
+              />
+            </div>
+            <div class="myInfo">
+              <h1 class="info">Jane Doe</h1>
+              <div class="iconBox">
+                <img
+                  class="icon"
+                  src="img/icons/map-marker.png"
+                  alt="Map marker icon"
+                />
+                <h2 class="info iconText">Seattle</h2>
+              </div>
+              <div class="info">
+                <h3>Developer | Engineer | Problem Solver</h3>
+                <h3>Master of shadows and the Internet!</h3>
+              </div>
+              <div class="edit">
+                <img class="icon" src="img/icons/gear.png" alt="Gear icon" />
+                <a class="iconText" href="#">Edit Profile</a>
+              </div>
+            </div>
           </div>
-          <div class="info">
-            <h3>Developer | Engineer | Problem Solver</h3>
-            <h3>Master of shadows and the Internet!</h3>
-          </div>
-          <div class="edit">
-            <img class="icon" src="img/icons/gear.png" alt="Gear icon" />
-            <a class="iconText" href="#">Edit Profile</a>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="cardDiv2">
-      <div class="card">
-        <div class="colorBar2"><h2 class="boxHead">Education</h2></div>
-        <div>
-          <h3 class="myInfo2">Coding Dojo - Full Stack Bootcamp</h3>
-          <h3 class="myInfo3">Dec 2019 - Mar 2020</h3>
-          <h3 class="myInfo4">Triple black belt in Python, MERN, and C#...</h3>
-        </div>
-      </div>
-    </div>
-    <div class="sideCard1">
-      <div class="sideCardSize">
-        <div class="colorBar3">
-          <span class="counter">2</span>
-          <h2 class="boxHead2">Connection Requests</h2>
-        </div>
-        <div>
-          <div class="sideButtons">
-            <img
-              class="sideProfile"
-              src="img/profilePics/todd-s.jpg"
-              alt="Todd Profile Picture"
-            />
-            <h3 class="accept">Todd E</h3>
-            <img
-              class="icon2"
-              src="img/icons/accept-circle.png"
-              alt="Accept Button"
-            />
-            <img
-              class="icon2"
-              src="img/icons/close-circle.png"
-              alt="Close Button"
-            />
-          </div>
-          <div class="sideButtons">
-            <img class="sideProfile" src="img/profilePics/phil-s.jpg" alt="" />
-            <h3 class="accept">Phil K</h3>
-            <img
-              class="icon2"
-              src="img/icons/accept-circle.png"
-              alt="Close Button"
-            /><img
-              class="icon2"
-              src="img/icons/close-circle.png"
-              alt="Close Button"
-            />
+        <div class="card">
+          <div class="colorBar2"><h2 class="boxHead">Education</h2></div>
+          <div class="eduText">
+            <h3 class="myInfo2">Coding Dojo - Full Stack Bootcamp</h3>
+            <h3 class="myInfo3">Dec 2019 - Mar 2020</h3>
+            <h3 class="myInfo4">
+              Triple black belt in Python, MERN, and C#...
+            </h3>
           </div>
         </div>
       </div>
-    </div>
-    <div class="sideCard2">
-      <div class="sideCardSize2">
-        <div class="colorBar3">
-          <span class="counter">500+</span>
-          <h2 class="boxHead2">Your Connections</h2>
+      <div class="rightCol">
+        <div class="sideCard1">
+          <div class="sideCardSize">
+            <div class="colorBar2">
+              <span class="counter">2</span>
+              <h2 class="boxHead2">Connection Requests</h2>
+            </div>
+            <div>
+              <div class="sideButtons">
+                <div class="todd">
+                  <img
+                    class="sideProfile"
+                    src="img/profilePics/todd-s.jpg"
+                    alt="Todd Profile Picture"
+                  />
+                  <h3 class="accept">Todd E</h3>
+                </div>
+                <div class="toddButtons">
+                  <img
+                    class="icon2"
+                    src="img/icons/accept-circle.png"
+                    alt="Accept Button"
+                  />
+                  <img
+                    class="icon2"
+                    src="img/icons/close-circle.png"
+                    alt="Close Button"
+                  />
+                </div>
+              </div>
+              <div class="sideButtons">
+                <div class="phil">
+                  <img
+                    class="sideProfile"
+                    src="img/profilePics/phil-s.jpg"
+                    alt="Phil Profile Picture"
+                  />
+                  <h3 class="accept">Phil K</h3>
+                </div>
+                <div class="philButtons">
+                  <img
+                    class="icon2"
+                    src="img/icons/accept-circle.png"
+                    alt="Accept Button"
+                  />
+                  <img
+                    class="icon2"
+                    src="img/icons/close-circle.png"
+                    alt="Close Button"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div class="sideButtons">
-            <img
-              class="sideProfile"
-              src="img/profilePics/adrien-s.jpg"
-              alt="Todd Profile Picture"
-            />
-            <h3 class="accept">Adrien D</h3>
+        <div class="sideCard2">
+          <div class="sideCardSize2">
+            <div class="colorBar2">
+              <span class="counter">500+</span>
+              <h2 class="boxHead2">Your Connections</h2>
+            </div>
+            <div>
+              <div class="sideButtons">
+                <img
+                  class="sideProfile"
+                  src="img/profilePics/adrien-s.jpg"
+                  alt="Todd Profile Picture"
+                />
+                <h3 class="accept">Adrien D</h3>
+              </div>
+              <div class="sideButtons">
+                <img
+                  class="sideProfile"
+                  src="img/profilePics/anne-s.jpg"
+                  alt=""
+                />
+                <h3 class="accept">Anne J</h3>
+              </div>
+              <div class="sideButtons">
+                <img
+                  class="sideProfile"
+                  src="img/profilePics/alayne-s.jpg"
+                  alt=""
+                />
+                <h3 class="accept">Alayne T</h3>
+              </div>
+              <div class="sideButtons">
+                <img
+                  class="sideProfile"
+                  src="img/profilePics/arry-s.jpg"
+                  alt=""
+                />
+                <h3 class="accept">Arry Y</h3>
+              </div>
+              <div class="viewMore">
+                <a class="moreLink" href="#">View More</a>
+              </div>
+            </div>
           </div>
-          <div class="sideButtons">
-            <img class="sideProfile" src="img/profilePics/anne-s.jpg" alt="" />
-            <h3 class="accept">Anne J</h3>
-          </div>
-          <div class="sideButtons">
-            <img
-              class="sideProfile"
-              src="img/profilePics/alayne-s.jpg"
-              alt=""
-            />
-            <h3 class="accept">Alayne T</h3>
-          </div>
-          <div class="sideButtons">
-            <img class="sideProfile" src="img/profilePics/arry-s.jpg" alt="" />
-            <h3 class="accept">Arry Y</h3>
-          </div>
-          <div class="viewMore"><a class="moreLink" href="#">View More</a></div>
         </div>
       </div>
     </div>
