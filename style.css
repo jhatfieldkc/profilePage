@@ -173,7 +173,13 @@ nav ul {
   width: auto;
 }
 
-.sideButtons {
+.sideButtons1 {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.sideButtons2 {
   display: flex;
   align-items: center;
   margin: 10px;
@@ -208,7 +214,15 @@ nav ul {
   font-size: 24px;
 }
 
-.counter {
+#counter1 {
+  background-color: grey;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+#counter2 {
   background-color: grey;
   font-size: 24px;
   border-radius: 50%;
@@ -232,4 +246,9 @@ nav ul {
 
 .philButtons {
   margin-left: 5.4rem;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
 }
